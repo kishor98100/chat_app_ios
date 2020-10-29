@@ -15,6 +15,7 @@
 		0286B393254A7EC500D170AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0286B391254A7EC500D170AA /* LaunchScreen.storyboard */; };
 		0286B39E254A7EC500D170AA /* Chat_App_IosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0286B39D254A7EC500D170AA /* Chat_App_IosTests.swift */; };
 		0286B3A9254A7EC500D170AA /* Chat_App_IosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0286B3A8254A7EC500D170AA /* Chat_App_IosUITests.swift */; };
+		0286B3C2254A7FB400D170AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0286B3C1254A7FB400D170AA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0286B3A4254A7EC500D170AA /* Chat App IosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chat App IosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0286B3A8254A7EC500D170AA /* Chat_App_IosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_App_IosUITests.swift; sourceTree = "<group>"; };
 		0286B3AA254A7EC500D170AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0286B3C1254A7FB400D170AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		0286B385254A7EC400D170AA /* Chat App Ios */ = {
 			isa = PBXGroup;
 			children = (
+				0286B3C1254A7FB400D170AA /* GoogleService-Info.plist */,
 				0286B386254A7EC400D170AA /* AppDelegate.swift */,
 				0286B388254A7EC400D170AA /* SceneDelegate.swift */,
 				0286B38A254A7EC400D170AA /* ViewController.swift */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0286B393254A7EC500D170AA /* LaunchScreen.storyboard in Resources */,
+				0286B3C2254A7FB400D170AA /* GoogleService-Info.plist in Resources */,
 				0286B390254A7EC500D170AA /* Assets.xcassets in Resources */,
 				0286B38E254A7EC400D170AA /* Main.storyboard in Resources */,
 			);
